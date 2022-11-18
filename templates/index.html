@@ -1,0 +1,36 @@
+<head>
+    <link rel="stylesheet" href="static/estilo.css">  
+    </head>
+    
+    <body>
+    
+    <div class='container'>
+      <div class='card'>
+        <h1> Confirmação de e-mail </h1>
+        
+         <form class="row g-3" action="/send" method="POST">
+                <div class="label-float">
+                   <input type="text" id="nome" name="nome"  placeholder=" " required>
+                   <label id="labelNome" for="nome">Nome</label>
+                </div>
+    
+                <div class="label-float">
+                   <input type="text" id="email"  name="email" placeholder=" " required>
+                   <label id="labelEmail" for="email">E-mail</label>
+                </div>
+                
+                <div class="label-float">
+                   <input type="text" id="Telefone" name="telefone" placeholder=" " required>
+                   <label id="labelTelefone" for="telefone">Telefone</label>
+                </div>
+                
+                <div class='justify-center'>
+                   <button type="submit" onclick='cadastrar()'>Confirmar</button>
+                   
+                </div>
+
+                
+         </form>
+        
+      </div>
+    </body>
